@@ -1,0 +1,5 @@
+<div>
+  <h1>Current Language: {{ languages[index % 2] }}</h1>
+</div>
+
+<app-child (childToParent)="toggleDisplay($event)"> </app-child>
